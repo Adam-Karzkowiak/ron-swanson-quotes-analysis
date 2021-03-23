@@ -5,13 +5,17 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
+import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
+@Service
 public class Analyzer {
 
-    public void analyse(String text) {
+    public ArrayList<String> analyse(String text) {
+        ArrayList<String> array = new ArrayList<>();
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize, ssplit, pos, lemma, parse, sentiment");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
@@ -19,7 +23,8 @@ public class Analyzer {
         List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
         for (CoreMap sentence : sentences) {
             String sentiment = sentence.get(SentimentCoreAnnotations.SentimentClass.class);
-            System.out.println(sentiment + "\t" + sentence);
+            array.add(sentence + " - Ron's attitude is: " + sentiment);
         }
+        return array;
     }
 }
