@@ -1,4 +1,4 @@
-package service;
+package com.app.swansonlyzer.service;
 
 
 import java.io.BufferedReader;
