@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 
 @RestController
-class RonSwansonController {
+public class RonSwansonController {
 
     private final Analyzer analyzer;
     private final QuotesProvider quotesProvider;
