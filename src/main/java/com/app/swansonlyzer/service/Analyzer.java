@@ -15,6 +15,9 @@ import java.util.Properties;
 public class Analyzer {
 
     public ArrayList<String> analyse(String text) {
+        if (text == null) {
+            throw new IllegalArgumentException("Null argument");
+        }
         ArrayList<String> array = new ArrayList<>();
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize, ssplit, pos, lemma, parse, sentiment");
