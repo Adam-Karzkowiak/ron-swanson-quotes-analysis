@@ -1,0 +1,1 @@
+web: java -jar target/ron-swanson-quotes-analysis-0.0.1-SNAPSHOT.jar $PORT
