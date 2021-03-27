@@ -15,7 +15,7 @@
     <description>Swansonalyzer</description>
     <properties>
         <java.version>11</java.version>
-        <vaadin.version>19.0.2</vaadin.version>
+        <vaadin.version>14.5.1</vaadin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -40,12 +40,12 @@
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
-            <version>3.7.0</version>
+            <version>3.6.0</version>
         </dependency>
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
-            <version>3.7.0</version>
+            <version>3.6.0</version>
             <classifier>models</classifier>
         </dependency>
         <dependency>
