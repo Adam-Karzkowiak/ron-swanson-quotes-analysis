@@ -13,7 +13,7 @@ import com.vaadin.flow.theme.lumo.Lumo;
 import org.springframework.beans.factory.annotation.Autowired;
 
 
-@Route(value = "home")
+@Route(value = "")
 @PageTitle("Swansonalyzer")
 @Theme(value = Lumo.class, variant = Lumo.DARK)
 public class MainView extends VerticalLayout {
