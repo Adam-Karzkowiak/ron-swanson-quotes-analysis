@@ -9,17 +9,22 @@ Application for analyzing Ron Swanson quotes using the Stanford coreNLP library.
 The project was created for a scientific purpose and allowed me to draw conclusions -\
 Ron Swanson: 1, The Stanford NLP Group: 0.\
 This genius cannot be analyzed.\
-Application in progress - TODO: spring and REST, simple frontend, deployment (heroku).\
-Kudos to [@jamesseanwright](https://github.com/jamesseanwright) for creating [ron-swanson-quotes](https://github.com/jamesseanwright/ron-swanson-quotes) which inspired me to create this (and allowed me to learn something new)\
-![Alt text](https://github.com/Adam-Karzkowiak/ron-swanson-quotes-analysis/blob/master/src/main/resources/static/ronswanson.gif)
+
+
+![Alt text](https://i.pinimg.com/originals/39/1a/11/391a11a041840d4ca23171a097d1e0f6.gif)
 
 ## Technologies
 Project is created with:
-TODO
+-JAVA 11\ 
+-SPRING BOOT 2.4.4\ 
+-VAADIN 14.5.1\ 
+-GSON 2.8.6\ 
+-STANFORD CORENLP 3.5.2
+-[ron-swanson-quotes](https://github.com/jamesseanwright/ron-swanson-quotes) API 
 	
 ## Setup
-To run this project, install it locally using :
+To run this project:
 
 ```
-TODO
+Visit https://swansonalyzer.herokuapp.com/ and enjoy :) 
 ```
