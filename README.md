@@ -5,6 +5,7 @@
 * [Setup](#setup)
 
 ## General info
+DEPLOYMENT : [SWANSONALYZER](https://swansonalyzer.herokuapp.com/)\
 Application for analyzing Ron Swanson quotes using the Stanford coreNLP library.\
 The project was created for a scientific purpose and allowed me to draw conclusions -\
 Ron Swanson: 1, The Stanford NLP Group: 0.\
