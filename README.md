@@ -15,11 +15,11 @@ This genius cannot be analyzed.
 
 ## Technologies
 Project is created with:
--JAVA 11\ 
--SPRING BOOT 2.4.4\ 
--VAADIN 14.5.1\ 
--GSON 2.8.6\ 
--STANFORD CORENLP 3.5.2
+-JAVA 11\
+-SPRING BOOT 2.4.4\
+-VAADIN 14.5.1\
+-GSON 2.8.6\
+-STANFORD CORENLP 3.5.2\
 -[ron-swanson-quotes](https://github.com/jamesseanwright/ron-swanson-quotes) API 
 	
 ## Setup
