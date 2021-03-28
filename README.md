@@ -8,7 +8,7 @@
 Application for analyzing Ron Swanson quotes using the Stanford coreNLP library.\
 The project was created for a scientific purpose and allowed me to draw conclusions -\
 Ron Swanson: 1, The Stanford NLP Group: 0.\
-This genius cannot be analyzed.\
+This genius cannot be analyzed.
 
 
 ![Alt text](https://i.pinimg.com/originals/39/1a/11/391a11a041840d4ca23171a097d1e0f6.gif)
